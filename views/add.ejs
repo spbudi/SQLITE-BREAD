@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Data</h1>
+        <div class="form">
+            <form action="" method="post">
+                <table>
+                    <tr>
+                    <td><label for="string">String</label></td>
+                    <td><input type="text" name="string" id="string" placeholder="String"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="integer">Integer</label></td>
+                        <td><input type="number" name="integer" id="integer" placeholder="Integer"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="float">Float</label></td>
+                        <td><input type="number" step="0.005" name="float" id="float" placeholder="Float"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date</label></td>
+                
+                        <td><input type="date" name="date" id="date" value="kosong" placeholder="yyyy/mm/dd"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="boolean">Boolean</label></td>
+                        <td>
+                            <select name="boolean" id="boolean">
+                            <option value="">Choose the boolean....</option>
+                            <option value="true">true</option>
+                            <option value="false">false</option>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" class ="btn save">Simpan</button>
+               </form>
+               
+        </div>
+</body>
+</html>

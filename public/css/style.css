@@ -1,0 +1,193 @@
+.container {
+  margin: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.table thead {
+  background-color: #f2f2f2;
+}
+
+.table td,
+.table th {
+  padding: 8px;
+  text-align: center;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* ketika disamper berubah jadi pointer */
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn.add {
+  background-color: #2196F3;
+  float: right;
+}
+
+.btn.add:hover {
+  background: #0b7dda;
+}
+
+.btn.search {
+  background-color: #2196F3;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.btn.search:hover {
+  background: #0b7dda;
+}
+
+.btn.save {
+  background-color: #7521f3;
+  margin-top: 30px;
+}
+
+.btn.save:hover {
+  background: #760bda;
+}
+
+.btn.delete {
+  background-color: #f44336;
+  padding: 10px 10px;
+}
+
+.btn.delete:hover {
+  background: #da190b;
+}
+
+.btn.edit {
+  background-color: #04AA6D;
+  padding: 10px 10px;
+}
+
+.btn.edit:hover {
+  background: #46a049;
+}
+
+.btn.warning {
+  background-color: #ff9800;
+  text-decoration: none;
+}
+
+/* Orange */
+.btn.warning:hover {
+  background: #e68a00;
+}
+
+.form table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.form table td,
+th {
+  padding: 10px;
+}
+
+.form label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 20px;
+  text-align: left;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* Match form field borders */
+  border: 1px solid #999;
+  border-radius: 2px;
+  height: 2.5em;
+}
+
+.form input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #0b7dda
+}
+
+.filters table {
+  width: 100%;
+}
+
+.filters td,
+tr {
+  padding-top: 10px;
+}
+
+.filters label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 20px;
+  text-align: left;
+}
+
+.filters select,
+input[type="text" i],
+input[type="number" i],
+input[type="date" i] {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* Match form field borders */
+  border: 1px solid #999;
+  border-radius: 2px;
+  height: 2.5em;
+}
+
+.filters input[type="checkbox" i] {
+  padding-top: 12px;
+}
+
+.pagination {
+  float: left;
+  
+}
+
+.pagination a {
+  color: #2196F3;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #0b7dda ;
+  color: white;
+  /* border: 1px solid #4CAF50; */
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
